@@ -6,6 +6,7 @@ import reactNative from './src/react-native';
 import reactNativeStyleSheet from './src/react-native-stylesheet';
 import styledComponents from './src/styled-components';
 import xp from './src/reactxp';
+import glamorous from './src/glamorous';
 
 import renderDeepTree from './tests/renderDeepTree';
 import renderTweet from './tests/renderTweet';
@@ -36,6 +37,8 @@ const extraTests = [
   () => renderWideTree('jss', jss),
   () => renderDeepTree('reactxp', xp),
   () => renderWideTree('reactxp', xp),
+  () => renderDeepTree('glamorous', glamorous),
+  () => renderWideTree('glamorous', glamorous),
   () => renderDeepTree('styled-components', styledComponents),
   () => renderWideTree('styled-components', styledComponents)
 ];

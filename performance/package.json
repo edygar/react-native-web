@@ -5,6 +5,7 @@
     "aphrodite": "^1.2.0",
     "classnames": "^2.2.5",
     "glamor": "3.0.0-1",
+    "glamorous": "^3.9.0",
     "marky": "^1.2.0",
     "react-jss": "^6.1.1",
     "reactxp": "^0.34.3",
